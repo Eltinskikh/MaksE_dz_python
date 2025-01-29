@@ -1,9 +1,9 @@
 class Smartphone:
-    brand = "Unknow"
-    model = "Unknow"
+    brand = "Unknown"
+    model = "Unknown"
     number = "+79000000000"
 
     def __init__(self, brand, model, number):
-        self.b = brand
-        self.m = model
-        self.n = number
+        self.brand = brand
+        self.model = model
+        self.number = number
