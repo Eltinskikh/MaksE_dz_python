@@ -126,7 +126,7 @@ def test_positive_to_list(string_in, res_in):
 @pytest.mark.negative_test
 @pytest.mark.xfail
 @pytest.mark.parametrize('string_in, res_in', [
-    ("", [""])
+    ("", "")
 ])
 def test_negative_to_list(string_in, res_in):
     string = StringUtils()
@@ -225,7 +225,7 @@ def test_positive_list_to_string(lst, res_in):
 @pytest.mark.negative_test
 @pytest.mark.xfail
 @pytest.mark.parametrize('lst, res_in', [
-    ([], " "),
+    ([], ""),
     ([" ", " "], " , ")
 ])
 def test_negative_list_to_string(lst, res_in):
