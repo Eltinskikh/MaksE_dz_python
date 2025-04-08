@@ -4,7 +4,7 @@ import uuid
 from requests.exceptions import RequestException
 
 BASE_URL = "https://ru.yougile.com/api-v2"
-API_TOKEN = "kv5f7uGEmSyJggP2Ea9ztMi9c1L-9sJOiSSFyXErBZIITMAZHStVo2nPAL3CdnBi"
+API_TOKEN = "указать токен"
 REQUEST_TIMEOUT = 10
 
 
